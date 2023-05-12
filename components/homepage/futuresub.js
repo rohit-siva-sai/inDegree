@@ -22,14 +22,14 @@ const Futuresub = () => {
                 </svg>
                 <p
                   className={`text-xl ${
-                    item.text.includes("Let us match you") ? "pt-1" : "pt-0"
+                    item.text.includes("Let us match you") ? "pt-4" : "pt-0"
                   } font-semibold`}
                 >
                   {item.heading}
                 </p>
                 <p
                   className={`text-xs font-medium ${
-                    item.text.includes("Let us match you") ? "pt-1" : "pt-0"
+                    item.text.includes("Let us match you") ? "pt-4" : "pt-0"
                   }  text-gray-600`}
                 >
                   {item.text}
