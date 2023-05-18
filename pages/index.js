@@ -4,6 +4,7 @@ import Future from '@/components/homepage/future'
 import Institute from '@/components/homepage/institute'
 import SimpleStart from '@/components/homepage/simpleStart'
 import Bootcamp from '@/components/homepage/bootcamp'
+import Strategic from '@/components/homepage/strategic'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,6 +16,7 @@ export default function Home() {
       <Future/>
       <Institute/>
       <SimpleStart/>
+      <Strategic/>
       <Bootcamp/>
      
     </main>
